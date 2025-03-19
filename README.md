@@ -5,7 +5,7 @@ A simple Streamlit web application that suggests places to visit in Sri Lanka ba
 ## Features
 - Filter places by age group (All, Adults, Kids, Seniors)
 - Select places based on category (Cultural, Wildlife, Historical, Beach, Adventure, Natural, Modern)
-- View recommended places sorted by rating
+- Clickable **Google Maps links** for easy navigation  
 - Interactive and easy-to-use interface built with Streamlit
 
 ## Installation
