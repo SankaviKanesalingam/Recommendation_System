@@ -35,13 +35,7 @@ streamlit run tourist_guide.py
     ├── README.md              # Project documentation
 ```
 
-## Dependencies
-Create a `requirements.txt` file and add the following dependencies:
-```
-streamlit
-pandas
-scikit-learn
-```
+
 
 
 
