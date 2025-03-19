@@ -1,50 +1,45 @@
-Name,Category,Age_Group,Rating
-Sigiriya Rock Fortress,Cultural,All,4.8
-Yala National Park,Wildlife,All,4.7
-Galle Fort,Historical,All,4.6
-Arugam Bay,Beach,Adults,4.5
-Temple of the Sacred Tooth Relic,Cultural,All,4.9
-Anuradhapura Sacred City,Cultural,All,4.7
-Polonnaruwa Ancient City,Historical,All,4.6
-Kandy Lake,Cultural,All,4.8
-Sinharaja Forest Reserve,Wildlife,All,4.7
-Dambulla Cave Temple,Cultural,All,4.6
-Mirissa Beach,Beach,All,4.5
-Unawatuna Beach,Beach,All,4.5
-Adam's Peak,Adventure,All,4.8
-Horton Plains National Park,Wildlife,All,4.7
-Knuckles Mountain Range,Adventure,All,4.6
-Colombo National Museum,Cultural,All,4.5
-Udawalawe National Park,Wildlife,All,4.7
-Bundala National Park,Wildlife,All,4.6
-Pinnawala Elephant Orphanage,Wildlife,All,4.5
-Negombo Beach,Beach,All,4.4
-Trincomalee,Beach,All,4.5
-Jaffna Fort,Historical,All,4.3
-Nuwara Eliya,Cultural,All,4.6
-Ella,Adventure,All,4.7
-Bentota Beach,Beach,All,4.5
-Ravana Falls,Natural,All,4.6
-Pidurangala Rock,Adventure,All,4.7
-Wilpattu National Park,Wildlife,All,4.6
-Kelaniya Raja Maha Vihara,Cultural,All,4.5
-Beira Lake,Cultural,All,4.4
-Mount Lavinia Beach,Beach,All,4.3
-Seetha Amman Temple,Cultural,All,4.6
-Gal Vihara,Historical,All,4.7
-"Royal Botanical Gardens, Peradeniya",Cultural,All,4.8
-Demodara Nine Arch Bridge,Historical,All,4.6
-Mahiyangana Raja Maha Vihara,Cultural,All,4.5
-Independence Memorial Hall,Historical,All,4.4
-Viharamahadevi Park,Cultural,All,4.3
-Jami Ul-Alfar Mosque,Cultural,All,4.6
-"St. Anthony's Shrine, Kochchikade",Cultural,All,4.5
-Batticaloa Lagoon,Natural,All,4.4
-Gal Oya National Park,Wildlife,All,4.6
-Wasgamuwa National Park,Wildlife,All,4.5
-Kaudulla National Park,Wildlife,All,4.4
-Munneswaram Temple,Cultural,All,4.3
-Ritigala Forest Monastery,Historical,All,4.6
-Lotus Tower,Modern,All,4.5
-Colombo Dutch Museum,Historical,All,4.4
-National Zoological Gardens of Sri Lanka,Wildlife,All,4.3
+Name,Category,Age_Group,Rating,Latitude,Longitude
+Sigiriya Rock Fortress,Cultural,All,4.8,7.9569,80.7594
+Yala National Park,Wildlife,All,4.7,6.5138,81.5188
+Galle Fort,Historical,All,4.6,6.026,80.217
+Arugam Bay,Beach,Adults,4.5,6.8433,81.8333
+Temple of the Sacred Tooth Relic,Cultural,All,4.9,7.2936,80.6413
+Anuradhapura Sacred City,Cultural,All,4.7,8.3114,80.4037
+Polonnaruwa Ancient City,Historical,All,4.6,7.9396,81.0019
+Kandy Lake,Cultural,All,4.8,7.2906,80.6406
+Sinharaja Forest Reserve,Wildlife,All,4.7,6.4169,80.5029
+Dambulla Cave Temple,Cultural,All,4.6,7.8561,80.6495
+Mirissa Beach,Beach,All,4.5,5.9489,80.4542
+Unawatuna Beach,Beach,All,4.5,5.9885,80.2519
+Adam's Peak,Adventure,All,4.8,6.8098,80.4999
+Horton Plains National Park,Wildlife,All,4.7,6.8028,80.8122
+Knuckles Mountain Range,Adventure,All,4.6,7.4676,80.844
+Colombo National Museum,Cultural,All,4.5,6.9271,79.8612
+Udawalawe National Park,Wildlife,All,4.7,6.4758,80.888
+Bundala National Park,Wildlife,All,4.6,6.2,81.2333
+Pinnawala Elephant Orphanage,Wildlife,All,4.5,7.3008,80.3853
+Negombo Beach,Beach,All,4.4,7.2083,79.8356
+Trincomalee,Beach,All,4.5,8.5874,81.2152
+Jaffna Fort,Historical,All,4.3,9.662,80.013
+Nuwara Eliya,Cultural,All,4.6,6.9497,80.7891
+Ella,Adventure,All,4.7,6.8667,81.0467
+Bentota Beach,Beach,All,4.5,6.4226,80
+Ravana Falls,Natural,All,4.6,6.8485,81.0678
+Pidurangala Rock,Adventure,All,4.7,7.9616,80.7594
+Wilpattu National Park,Wildlife,All,4.6,8.4096,80.1016
+Kelaniya Raja Maha Vihara,Cultural,All,4.5,6.9553,79.9227
+Beira Lake,Cultural,All,4.4,6.9271,79.854
+Mount Lavinia Beach,Beach,All,4.3,6.8296,79.8656
+Seetha Amman Temple,Cultural,All,4.6,6.9497,80.8064
+Gal Vihara,Historical,All,4.7,7.9397,81.0016
+"Royal Botanical Gardens, Peradeniya",Cultural,All,4.8,7.2715,80.5956
+Demodara Nine Arch Bridge,Historical,All,4.6,6.875,81.0469
+Mahiyangana Raja Maha Vihara,Cultural,All,4.5,7.3358,80.9938
+Independence Memorial Hall,Historical,All,4.4,6.9025,79.8612
+Viharamahadevi Park,Cultural,All,4.3,6.9174,79.8647
+Jami Ul-Alfar Mosque,Cultural,All,4.6,6.9378,79.8505
+"St. Anthony's Shrine, Kochchikade",Cultural,All,4.5,7.2083,79.8356
+Batticaloa Lagoon,Natural,All,4.4,7.7102,81.6924
+Gal Oya National Park,Wildlife,All,4.6,7.2236,81.5031
+Wasgamuwa National Park,Wildlife,All,4.5,7.574,80.888
+Kaudulla National Park,Wildlife,All,4.4,8.1274,80.9042

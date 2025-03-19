@@ -1,3 +1,5 @@
+
+
 import streamlit as st
 import pandas as pd
 
@@ -7,11 +9,11 @@ df = pd.read_csv('C:\\Users\\sankavi\\OneDrive\\Desktop\\Tourist_Guide\\Recommen
 # Streamlit page configuration
 st.set_page_config(page_title="Sri Lanka Tourist Guide", layout="wide")
 
-# Title
-st.title("Sri Lanka Tourist Guide")
+# Title and Styling
+st.markdown("<h1 style='text-align: center; color: #1E88E5;'>Sri Lanka Tourist Guide</h1>", unsafe_allow_html=True)
 
-# Sidebar for user input
-st.sidebar.header("Filter Places Based on Your Interests")
+# Sidebar for filters
+st.sidebar.header("🔍 Filter Places Based on Your Interests")
 
 # Age Group Filter
 age_group = st.sidebar.selectbox(
@@ -26,10 +28,23 @@ filtered_data = df[(df['Age_Group'] == age_group) | (df['Age_Group'] == 'All')]
 filtered_data = filtered_data[filtered_data['Category'] == category]
 
 # Show the results
-st.subheader(f"Places to visit for {age_group} in the category {category}")
-st.write(filtered_data[['Name', 'Category', 'Age_Group', 'Rating']])
+st.subheader(f"🌍 Recommended Places for {age_group} in {category}")
 
-# Bonus: Sorting by Rating
-st.subheader("Sorted by Rating")
-sorted_data = filtered_data.sort_values(by="Rating", ascending=False)
-st.write(sorted_data[['Name', 'Category', 'Age_Group', 'Rating']])
+# Generate clickable Google Maps links
+def generate_map_link(lat, lon):
+    return f"https://www.google.com/maps?q={lat},{lon}"
+
+# Display places as a responsive grid
+cols = st.columns(3)  # 3-column layout
+
+for index, row in filtered_data.iterrows():
+    google_maps_link = generate_map_link(row['Latitude'], row['Longitude'])
+    with cols[index % 3]:  # Distribute cards in 3 columns
+        st.markdown(f"""
+            <div style="border: 1px solid #ddd; border-radius: 10px; padding: 10px; margin: 10px; text-align: center; background-color: #f9f9f9;">
+                <h4 style="color: #1E88E5;">{row['Name']}</h4>
+                <p><strong>Category:</strong> {row['Category']}</p>
+                <p style="color: #1E88E5;"><strong>Rating:</strong> ⭐ {row['Rating']}</p>
+                <a href="{google_maps_link}" target="_blank" style="color: #D32F2F; font-weight: bold;">📍 View on Google Maps</a>
+            </div>
+        """, unsafe_allow_html=True)
