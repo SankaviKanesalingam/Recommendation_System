@@ -13,7 +13,7 @@ A simple Streamlit web application that suggests places to visit in Sri Lanka ba
 ### 1. Clone this repository
 ```bash
 git clone https://github.com/SankaviKanesalingam/tourist-guide-sri-lanka.git
-cd tourist-guide-sri-lanka
+cd Recommendation_System
 ```
 
 ### 2. Install dependencies
