@@ -43,11 +43,7 @@ pandas
 scikit-learn
 ```
 
-## Contributing
-Feel free to fork this repository and submit pull requests if you have improvements.
 
-## License
-This project is licensed under the MIT License.
 
 ## Author
 [Sankavi Kanesalingam](https://github.com/SankaviKanesalingam)
