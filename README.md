@@ -12,7 +12,7 @@ A simple Streamlit web application that suggests places to visit in Sri Lanka ba
 
 ### 1. Clone this repository
 ```bash
-git clone https://github.com/your-username/tourist-guide-sri-lanka.git
+git clone https://github.com/SankaviKanesalingam/tourist-guide-sri-lanka.git
 cd tourist-guide-sri-lanka
 ```
 
@@ -30,7 +30,7 @@ streamlit run tourist_guide.py
 ```
 /project-directory
     ├── tourist_guide.py       # Main Streamlit app file
-    ├── tourist_places.csv     # CSV file with tourist places data
+    ├── Dat_for_Tourist.csv     # CSV file with tourist places data
     ├── requirements.txt       # Dependencies
     ├── README.md              # Project documentation
 ```
@@ -50,4 +50,4 @@ Feel free to fork this repository and submit pull requests if you have improveme
 This project is licensed under the MIT License.
 
 ## Author
-[Sankavi Kanesalingam](https://github.com/your-username)
+[Sankavi Kanesalingam](https://github.com/SankaviKanesalingam)
